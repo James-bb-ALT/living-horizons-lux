@@ -1,0 +1,29 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "dev.lhlux.mixin",
+  "refmap": "livinghorizons_lux.refmap.json",
+  "plugin": "dev.lhlux.mixin.LivingHorizonsLuxMixinPlugin",
+  "compatibilityLevel": "JAVA_17",
+  "client": [
+    "client.MinecraftRenderTargetAccessor",
+    "client.GameRendererLuxMixin",
+    "client.LevelRendererLuxMixin",
+    "client.ClientLevelLightHookMixin",
+    "client.VanillaColorLightMixin",
+    "client.ProgramShaderPatchMixin",
+    "embeddium.SodiumWorldRendererAccessor",
+    "embeddium.RenderSectionManagerAccessor",
+    "embeddium.EmbeddiumShaderLoaderMixin",
+    "embeddium.EmbeddiumChunkShaderInterfaceMixin",
+    "embeddium.EmbeddiumColorLightMixin",
+    "lh.LivingHorizonsShadowVolumeMixin",
+    "lh.LivingHorizonsWorldLightMixin",
+    "lh.LivingHorizonsLightTweaksMixin",
+    "lh.LivingHorizonsOceanWavesMixin",
+    "lh.LivingHorizonsShorelineMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
